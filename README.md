@@ -6,6 +6,7 @@ Alpine based docker setup for Laravel 9.
 * php:8.1-fpm-alpine
 * mysql:5.7.37
 * phpmyadmin
+* composer
 
 ## Php extensions: 
 bcmath
