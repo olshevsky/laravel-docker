@@ -44,7 +44,7 @@ xmlreader
 xmlwriter
 zlib
 
-## Installation
+## Installation:
 1. Copy files from this repo into your Laravel project (replacing original docker-compose.yml)
 2. Rename .env.example to .env and edit it. Note that ***DB_HOST in .env must match DB service name in docker-compose.yml*** (e.g. DB_HOST=mysql)
 3. In project directory run:
