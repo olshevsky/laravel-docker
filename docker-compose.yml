@@ -29,7 +29,7 @@ services:
     volumes:
       - ./:/var/www
       - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
-      - ./docker/nginx/logs/nginx:/var/log/nginx
+      - ./docker/nginx/log:/var/log/nginx
     networks:
       - app-network
 
